@@ -31,3 +31,4 @@ C:\Users\Filip Kostadinov\Desktop\GitHub-Filip\Further\FurtherUserApp\Domain\obj
 C:\Users\Filip Kostadinov\Desktop\GitHub-Filip\Further\FurtherUserApp\Domain\obj\Debug\netcoreapp2.1\Domain.AssemblyInfo.cs
 C:\Users\Filip Kostadinov\Desktop\GitHub-Filip\Further\FurtherUserApp\Domain\obj\Debug\netcoreapp2.1\Domain.dll
 C:\Users\Filip Kostadinov\Desktop\GitHub-Filip\Further\FurtherUserApp\Domain\obj\Debug\netcoreapp2.1\Domain.pdb
+C:\Users\Filip Kostadinov\Desktop\GitHub-Filip\Further\FurtherUserApp\Domain\obj\Debug\netcoreapp2.1\Domain.csprojAssemblyReference.cache
