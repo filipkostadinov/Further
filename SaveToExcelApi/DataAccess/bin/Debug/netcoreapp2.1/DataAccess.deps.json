@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "1d4c7052f55c051bbe154287cdf3074260be89e0"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "GemBox.Spreadsheet": "45.0.0.1043"
+        },
+        "runtime": {
+          "DataAccess.dll": {}
+        }
+      },
+      "GemBox.Spreadsheet/45.0.0.1043": {
+        "runtime": {
+          "lib/netstandard2.0/GemBox.Spreadsheet.dll": {
+            "assemblyVersion": "45.0.200.1043",
+            "fileVersion": "45.0.200.1043"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GemBox.Spreadsheet/45.0.0.1043": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A6/uIg8146hAZXByOW9w83ZhNZhPPt46/TjCdVqLLna8Mfyx4BK+tcneypkI8ftOYodNClFnqDVk713ztVQFEg==",
+      "path": "gembox.spreadsheet/45.0.0.1043",
+      "hashPath": "gembox.spreadsheet.45.0.0.1043.nupkg.sha512"
+    }
+  }
+}

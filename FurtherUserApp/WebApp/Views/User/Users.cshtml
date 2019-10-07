@@ -1,0 +1,41 @@
+﻿@model IEnumerable<UserViewModel>
+
+@{
+    ViewData["Title"] = "Users";
+}
+
+<h2>Users</h2>
+
+<a class="btn btn-primary" id="save" asp-controller="Home" asp-action="SaveExcel" role="button">Save excel</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Permission to login</th>
+            <th scope="col">Company</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.FirstName</td>
+                <td>@user.LastName</td>
+                @if (user.PermissionToLogin)
+                {
+                    <td>Allowed to login</td>
+                }
+                else
+                {
+                    <td>Not allowed to login</td>
+                }
+
+                <td>@user.Company.Name</td>
+                <td><a class="btn btn-primary" asp-controller="User" asp-action="Edit" asp-route-id="@user.Id" role="button">Edit</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,33 @@
+﻿@model EditViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-5">
+            <form asp-action="Edit" asp-controller="User" method="post">
+                <div class="form-group">
+                    <label asp-for="FirstName">First Name</label>
+                    <input asp-for="FirstName" type="text" class="form-control" placeholder="FirstName" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="LastName">Last Name</label>
+                    <input asp-for="LastName" type="text" class="form-control" placeholder="LastName" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="PermissionToLogin">Permission to login</label>
+                    <input asp-for="PermissionToLogin" type="checkbox" placeholder="LastName" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="CompanyId">Company</label>
+                    <select asp-for="CompanyId" asp-items="Model.Companies" class="form-control"></select>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+        </div>
+    </div>
+</div>
