@@ -20,3 +20,4 @@ C:\Users\Filip Kostadinov\Desktop\GitHub-Filip\Further\SaveToExcelApi\DataAccess
 C:\Users\Filip Kostadinov\Desktop\GitHub-Filip\Further\SaveToExcelApi\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.AssemblyInfo.cs
 C:\Users\Filip Kostadinov\Desktop\GitHub-Filip\Further\SaveToExcelApi\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.dll
 C:\Users\Filip Kostadinov\Desktop\GitHub-Filip\Further\SaveToExcelApi\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.pdb
+C:\Users\Filip Kostadinov\Desktop\GitHub-Filip\Further\SaveToExcelApi\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.csprojAssemblyReference.cache

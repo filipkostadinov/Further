@@ -10,6 +10,7 @@ namespace DataAccess
     {
         public static void Write(List<User> data)
         {
+            // If using Professional version, put your serial key below.
             SpreadsheetInfo.SetLicense("FREE-LIMITED-KEY");
 
             var workbook = new ExcelFile();
@@ -49,6 +50,7 @@ namespace DataAccess
                 worksheet.Cells[i, 2].Value = data[i-1].Username;
                 worksheet.Cells[i, 3].Value = data[i-1].DateOfBirth;
                 worksheet.Cells[i, 4].Value = data[i-1].Company.Name;
+
                 worksheet.Cells[i, 3].Style.HorizontalAlignment = HorizontalAlignmentStyle.Center;
             }
 
